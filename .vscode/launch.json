@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/demo/all_test_image_demo.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "args":["IR/segformer_mit-b2_4k_32_mfnet_focal_ir.py" ,"IR/iter_4000.pth", "--outfile", "visual_result/ir", "--type", "ir" ],
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "1"
+            }           
+           
+        }
+    ]
+}
+
