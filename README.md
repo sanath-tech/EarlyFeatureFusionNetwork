@@ -8,8 +8,10 @@ The MFnet dataset is used in this work, which comprises both RGB and IR image fr
 
 ## Installation
 1. Create a virtual environment:
+  ```
+  python -m venv venv
+  ```
 
-python -m venv venv
 
 
 2. Activate the virtual environment:
